@@ -385,13 +385,6 @@ section {
 #skills {
   background:#f2e04e;
 }
-/*h2공통*/
-section > .wrapper > h2 {
-  font-size:40px;
-  position:absolute;
-  top:45px;
-  right:80px;
-}
 /*3.코닥어패럴*/
 #kodak {
   background:#2c2c2c;
@@ -407,12 +400,16 @@ section > .wrapper > h2 {
   right:-1%;
   opacity:0.3;
 }
-
 #kodak > .wrapper > h2 {
+  font-size:90px;
   color:#666;
   opacity:1;
   font-weight:bold;
+  position:absolute;
+  top:50%;
+  left:-23%;
   font-family:'Ubuntu';
+  transform:rotate(90deg);
 }
 #kodak .info {
   color:#e1e1e1;
@@ -439,9 +436,14 @@ section > .wrapper > h2 {
   opacity:0.3;
 }
 #bike > .wrapper > h2 {
+  font-size:100px;
   color:#d7ff1f;
   font-weight:bold;
+  position:absolute;
+  top:50%;
+  left:-19%;
   font-family:'Ubuntu';
+  transform:rotate(90deg);
 }
 #bike button {
   bottom:-10px;
@@ -468,10 +470,15 @@ section > .wrapper > h2 {
   opacity:0.3;
 }
 #helinox > .wrapper > h2 {
+  font-size:100px;
   color:#dedede;
   opacity:1;
   font-weight:bold;
+  position:absolute;
+  top:50%;
+  left:-15%;
   font-family:'Ubuntu';
+  transform:rotate(90deg);
 }
 #helinox button {
   bottom:-40px;
@@ -701,9 +708,14 @@ button > div {
   background:#d0d1ad;
 }
 #contact > .wrapper > h2 {
+  font-size:100px;
   color:#f7ea49;
   font-weight:bold;
+  position:absolute;
+  top:50%;
+  left:-14%;
   font-family:'Ubuntu';
+  transform:rotate(90deg);
   z-index:1111;
 }
 #contact > .wrapper > div:nth-child(2) {
